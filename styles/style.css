@@ -1,56 +1,56 @@
 /* Inter font */
 .open-sans-inter {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* Raleway font */
 .open-sans-Raleway {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* common style */
 
 
 /* navigation style */
-nav{
+nav {
     background-image: url(../Assets/Hero-bg.png);
 }
 
 .navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
 }
 
-.navigation h2{
+.navigation h2, footer h2 {
     font-size: 34px;
     color: #4E47FF;
 }
 
 .primary-button {
-  font-size: 16px;
-  color: white;
-  background-color: #4E47FF;
-  padding:  12px 36px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .primary-button:hover {
-  background-color: #3b36cc; 
-  box-shadow: 0 4px 12px rgba(78, 71, 255, 0.4); 
-  transform: translateY(-0.9px); 
-  transition: all 0.2s ease-in-out;
+    background-color: #3b36cc;
+    box-shadow: 0 4px 12px rgba(78, 71, 255, 0.4);
+    transform: translateY(-0.9px);
+    transition: all 0.2s ease-in-out;
 }
 
 /* hero-section design */
@@ -59,28 +59,165 @@ nav{
     margin: 152px 267.5px;
     padding-bottom: 100px;
 }
-.hero-tittle{
+
+.hero-tittle {
     font-size: 35px;
     font-weight: bold;
 }
+
 /* action-section design */
-.action-section{
+.action-section {
     display: flex;
     justify-content: space-between;
     margin: 80px 159px 80px 141px;
     align-items: center;
 }
-.action-left h3{
+
+.action-left h3 {
     font-size: 42px;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.action-left p{
+
+.action-left p {
     font-size: 24px;
     font-weight: 400;
-    color:#252432
+    color: #252432
 }
-.action-right img{
+
+.action-right img {
     border-radius: 48px;
 }
+
+/* productive-users-section design */
+.productive-users-section {
+    background-color: #E5E7FF;
+    margin: 0 159px 0 141px;
+    padding: 25px 0;
+    border-radius: 24px;
+}
+
+.productive-users-section h2 {
+    text-align: center;
+    color: #252432;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.milestone {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -50px;
+
+}
+
+.mil-h1 {
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.milestone div p {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -60px;
+
+}
+
+/* user-say-section design */
+.user-say-section {
+    margin: 100px 149px 0 151px;
+}
+.user-say-section h1{
+    text-align: center;
+    
+}
+.review{
+    display: flex;
+    justify-content: space-around;
+}
+.author{
+    display: flex;
+    align-items: center;
+}
+.author img{
+    height: 40px;
+    width: 40px;
+    border-radius: 9999px;
+}
+.author-date h5 {
+    margin-left:13px;
+    margin-top: -3px;
+}
+.author-date p {
+    margin: -18px 0 0 13px;
+}
+
+/* ready-to-section design */
+.ready-to-section {
+    margin: 100px 150px 0 150px;
+    text-align: center;
+}
+.ready-to-section img{
+    margin: 20px 0;
+    border-radius: 48px;
+}
+/* get-in-touch-section design */
+.get-in-touch-section{
+    display: flex;
+    margin: 100px 150px 0 150px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.get-in-touch-section form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.get-in-touch-section form input,
+.get-in-touch-section form textarea {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.get-in-touch-section form input[type="button"] {
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* footer design */
+footer {
+    margin: 100px 150px 0 150px;
+    text-align: center;
+}
+
+footer nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+footer nav ul li a{
+    text-decoration: none;
+}
+
+
 
