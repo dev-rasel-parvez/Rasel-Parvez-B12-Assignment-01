@@ -57,9 +57,30 @@ nav{
 .hero-section {
     text-align: center;
     margin: 152px 267.5px;
+    padding-bottom: 100px;
 }
 .hero-tittle{
     font-size: 35px;
     font-weight: bold;
+}
+/* action-section design */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 159px 80px 141px;
+    align-items: center;
+}
+.action-left h3{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.action-left p{
+    font-size: 24px;
+    font-weight: 400;
+    color:#252432
+}
+.action-right img{
+    border-radius: 48px;
 }
 
